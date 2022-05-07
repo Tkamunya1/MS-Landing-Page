@@ -7,7 +7,7 @@ background-color: white;
  display: flex;
     justify-content:space-between;
   }
-  nav > .Logo, .Links{
+  nav >.Logo,.Links{
     margin: 15px;
   }
   nav > .Logo > h3{
@@ -38,7 +38,7 @@ width: 90px;
       margin-top: 30px;
       margin-bottom: 30px;
   }
-  #MSHOME>.Home{
+  #MSHome>.Home{
     display: flex;
 }
 #MSHome>.Home>.leftside,.rightside{
@@ -48,4 +48,21 @@ width: 90px;
     justify-content: center;
     align-items: center;
     padding-left: 30px;
+  }
+
+#MSStories{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.SeeAlbum{
+    color: antiquewhite;
+    background-color: #EC4067;
+height: 30px;
+width: 90px;
+  }
+  #MSStories>.Stories> .leftside, .storiesContent{
+    width: 50%;
   }
