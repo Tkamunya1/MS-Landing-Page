@@ -66,3 +66,40 @@ width: 90px;
   #MSStories>.Stories> .leftside, .storiesContent{
     width: 50%;
   }
+  #boardHead{
+    justify-content: space-between;
+  }
+  #boardHead> .Board> .leftside, .BDrightside{
+    width: 50%;
+  }
+.theBoardButton{
+  color: antiquewhite;
+  background-color: #EC4067;
+  height: 30px;
+width: 90px;
+}
+.BDrightside{
+  display: flex;
+}
+#sectGraduation > .Graduation{
+  display: flex;
+}
+
+#sectGraduation > .Graduation> .GDleftside, .GDrightside{
+  width: 50%;
+}
+
+#sectGraduation > .Graduation> .GDleftside{
+  display: flex;
+  align-items: center;
+}
+
+#sectGraduation > .boutme > .GDrightside{
+  padding-right: 10px;
+}
+.SeeOurAlbumBT{
+  color: antiquewhite;
+  background-color: #EC4067;
+  height: 30px;
+width: 90px;
+}
