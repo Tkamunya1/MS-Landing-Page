@@ -28,9 +28,24 @@ color: black;  }
   .Enroll{
     color: antiquewhite;
     background-color: #EC4067;
-height: 50px;
-width: 70px;
+height: 30px;
+width: 90px;
   }
   h1{
       color: #EC4067;
+  }
+  #MSHome{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+  #MSHOME>.Home{
+    display: flex;
+}
+#MSHome>.Home>.leftside,.rightside{
+    width: 50%;
+  }
+  #MSHome>.Home>.leftside{
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
   }
