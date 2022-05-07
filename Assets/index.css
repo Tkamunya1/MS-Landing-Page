@@ -2,6 +2,11 @@
     padding: 0%;
     margin: 0%;
 }
+button{
+  color: antiquewhite;
+  background-color: #EC4067;
+height: 30px;
+width: 90px;}
 nav{
 background-color: white;   
  display: flex;
@@ -114,12 +119,11 @@ width: 90px;
   padding-top: 40px;
   font-weight: lighter;
   margin-left: 180px;
+  display: inline;
 
 }
 .column {
-  width: 22.22%;
-  float: left;
-  padding: 5px;
+  width: 22.22%; padding: 5px;
   }
   #TechnicalMentors span{
        
@@ -147,5 +151,10 @@ width: 90px;
       padding-left: 30px;
       font-weight:lighter;
       }
-
+.RButton{
+  color: antiquewhite;
+  background-color: #EC4067;
+  height: 40px;
+width: 90px;
+}
 
