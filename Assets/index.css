@@ -68,10 +68,11 @@ width: 90px;
   }
   #boardHead{
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   #boardHead>.Board>.leftside,.BDrightside{
     width: 50%;
-    height: 50%;
   }
 .theBoardButton{
   color: antiquewhite;
