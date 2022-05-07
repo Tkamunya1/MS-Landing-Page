@@ -83,6 +83,10 @@ width: 90px;
 .BDrightside{
   display: flex;
 }
+#sectGraduation{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 #sectGraduation > .Graduation{
   display: flex;
 }
@@ -105,3 +109,29 @@ width: 90px;
   height: 30px;
 width: 90px;
 }
+#TechMentors{
+  padding-left: 20px;
+  padding-top: 40px;
+  font-weight: lighter;
+  margin-left: 180px;
+
+}
+.column {
+  width: 22.22%;
+  float: left;
+  padding: 5px;
+  }
+  #TechnicalMentors span{
+       
+    font-size: x-small;
+    font-size: small;
+    color:lightslategray
+    
+   }
+   #Techmentors h3{
+    font-size: x-large;
+    padding-top: 20px;
+    font-weight:lighter;
+    
+    }
+
