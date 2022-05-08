@@ -198,6 +198,12 @@ float: right; }
   color: #EC4067;
  }
  
+ .footer{
+  text-align: center;
+  background-color: lightgrey;
+  padding: 50px;
+  opacity: 50%;
+ }
 
 
 
