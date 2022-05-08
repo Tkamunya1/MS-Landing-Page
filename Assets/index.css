@@ -55,22 +55,28 @@ width: 90px;
     padding-left: 30px;
   }
 
-#MSStories{
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    justify-content: space-between;
+  .stories-Section{
+    margin-bottom: 70px;
 }
-
-.SeeAlbum{
-    color: antiquewhite;
-    background-color: #EC4067;
-height: 30px;
-width: 90px;
-  }
-  #MSStories>.Stories> .leftside, .storiesContent{
-    width: 50%;
-  }
+.stories-position-relative{
+    position: relative;
+}
+.orientation-first-absolute{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 550px;
+}
+.orientation-second-absolute{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
   #boardHead{
     justify-content: space-between;
     margin-top: 30px;
@@ -124,6 +130,7 @@ width: 90px;
 }
 .column {
   width: 22.22%; padding: 5px;
+  position: relative;
   }
   #TechnicalMentors span{
        
