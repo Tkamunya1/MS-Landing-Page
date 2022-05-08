@@ -61,26 +61,14 @@ right: 10px;
     margin-bottom: 70px;
     right: 10px;
 }
-.stories-position-relative{
-    position: relative;
-    right: 20px;
+.stories-Section>#stories{
+  display: inline-block;
 }
-.orientation-first-absolute{
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: #fff;
-    position: absolute;
-    top: 10px;
-    left: 550px;
+.stories-Section>#stories>.rightside{
+  display: flex;
+  flex-direction: row;
 }
-.orientation-second-absolute{
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: #fff;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-}
+
   #boardHead{
     justify-content: space-between;
     margin-top: 30px;
@@ -240,6 +228,8 @@ width: 90px;
   background-color:lightgray;
   font-size: x-large;
  }
+
+
 .contact{
   display: flex;
   padding-left: 200px;
