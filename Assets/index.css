@@ -75,6 +75,7 @@ width: 90px;
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;
+    display: flex;
   }
   #boardHead>.Board>.leftside,.BDrightside{
     width: 50%;
@@ -86,7 +87,7 @@ width: 90px;
 width: 90px;
 }
 .BDrightside{
-  display: flex;
+float: right;
 }
 #sectGraduation{
   margin-top: 20px;
@@ -119,7 +120,6 @@ width: 90px;
   padding-top: 40px;
   font-weight: lighter;
   margin-left: 180px;
-  display: inline;
 
 }
 .column {
