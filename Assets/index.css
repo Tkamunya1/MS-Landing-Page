@@ -157,10 +157,14 @@ width: 90px;
   height: 40px;
 width: 90px;
 }
+.Projects{
+  display: flex;
+  margin-top: 20px;
+}
 .Projects .body{
   padding-top: 0px;
   margin-bottom:200px;
-  padding-left: 80px;
+  padding-left: 40px;
   width: 60%;
  }
 .Projects h4 span{
@@ -173,5 +177,7 @@ width: 90px;
   background-color:lightgray;
   font-size: x-large;
  }
+ .Bike{
+float: right; }
 
 
