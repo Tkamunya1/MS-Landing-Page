@@ -6,6 +6,7 @@ This is a landing page introducing people to Moringa School.
 ## Installation
 
 The landing page does need any installation.
+To access this page, you need an internet connection, a mobile device or laptop and use this link 
 
 
 
