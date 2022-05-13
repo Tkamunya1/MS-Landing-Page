@@ -1,7 +1,12 @@
 *{
     padding: 0%;
     margin: 0%;
-    left: 10px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+}
+body{
+
 }
 button{
   color: antiquewhite;
@@ -19,6 +24,7 @@ background-color: white;
   nav > .Logo > h3{
     font-size: 30px;
     color: black
+  
   }
   
   nav > .Links > ul > li{
@@ -42,52 +48,56 @@ width: 90px;
   }
   #MSHome{
       margin-top: 30px;
-      margin-bottom: 30px;
-right: 10px;  
+      margin-bottom: 30p;  
 }
   #MSHome>.Home{
-    display: flex;
+    display: inline-flex;
 }
+#MSHome.Home>.leftside>p{
+text-size-adjust: 10px;}
+
 #MSHome>.Home>.leftside,.rightside{
     width: 50%;
   }
   #MSHome>.Home>.leftside{
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
+  
   }
 
-  .stories-Section{
-    margin-bottom: 70px;
-    right: 10px;
+  #Stories>.MSStories{
+    display: flex;
+    margin-bottom: 70px; right: 10px;
 }
-.stories-Section>#stories{
-  display: inline-block;
+#Stories>.MSStories>.storiesleftside,.storiesRightSide{
+  width: 50%;
 }
-.stories-Section>#stories>.rightside{
-  display: flex;
-  flex-direction: row;
+.storiesButtonLink{
+  color: antiquewhite;
+    background-color: #EC4067;
+height: 30px;
+width: 90px;
 }
-
-  #boardHead{
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+/*Board*/
+#boardHead{ 
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  #boardHead>.Board>.BDleftside, .BDrightside{
+    width: 50%;
     display: flex;
   }
-  #boardHead>.Board>.leftside,.BDrightside{
-    width: 50%;
+  #boardHead>.Board{
   }
+  
 .theBoardButton{
   color: antiquewhite;
   background-color: #EC4067;
   height: 30px;
-width: 90px;
+width: 150px;
 }
-.BDrightside{
-float: right;
-}
-#sectGraduation{
+ /*Graduation*/
+ #sectGraduation{
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -98,14 +108,8 @@ float: right;
 #sectGraduation > .Graduation> .GDleftside, .GDrightside{
   width: 50%;
 }
-
-#sectGraduation > .Graduation> .GDleftside{
-  display: flex;
-  align-items: center;
-}
-
 #sectGraduation > .boutme > .GDrightside{
-  padding-right: 10px;
+  padding-right: 1px;
 }
 .SeeOurAlbumBT{
   color: antiquewhite;
@@ -113,34 +117,15 @@ float: right;
   height: 30px;
 width: 90px;
 }
+/* TechMentors */
 #TechMentors{
-  padding-left: 20px;
-  padding-top: 40px;
-  font-weight: lighter;
-  margin-left: 180px;
+ 
 
 }
 .column {
-  width: 22.22%;
-  float: left;
-  padding: 5px;
+  width: 15%;
+  display: inline-block;
   }
-  
- 
- 
-  .row::after {
-  content: "";
-  clear: both;
-  display: table;
-  }
- 
- .tech{
-  padding-left: 20px;
-  padding-top: 40px;
-  font-weight: lighter;
-  margin-left: 180px;
- }
- 
   .tech h3{
   font-size: x-large;
   padding-top: 20px;
@@ -151,8 +136,8 @@ width: 90px;
   .tech h5{
   font-size: x-large;
   padding-top: 20px;
-  padding-left: 30px;
   font-weight:lighter;
+  color: #EC4067;
   }
  
  .tech span{
@@ -163,8 +148,7 @@ width: 90px;
   
  }
  
- .tech p{
-  padding-left: 30px;
+ #technicalMentors>.tech p{
   font-family: 'Nunito', sans-serif;
   font-size:medium;
   text-align: left;
@@ -173,65 +157,44 @@ width: 90px;
   margin-left: 0px;
  }
  
- .bottom-left {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  }
  
- .tech .head{
+  #technicalMentors>.tech> .head{
  position: absolute;
   left: 220px;
   top: 2760px;
   color: white;
  }
  
- .tech .head1{
-  position: absolute;
-  left: 600px;
-  top: 2760px;
-  color: white;
+  /*Projects*/
+  #Mprojects{
+    margin-top: 20px;
   }
- 
- .tech .head2{
-  position: absolute;
-  left: 1000px;
-  top: 2760px;
-  color: white;
-  }
-  
- .tech .head3{
-  position: absolute;
-  left: 1400px;
-  top: 2760px;
-  color: white;
-  }
-.Projects{
-  display: flex;
+#Mprojects>.Pbody{
   margin-top: 20px;
 }
-.Projects .body{
+#MProjects>.Pbody>.Pleftside, .Prightside{
+  display: flex
+
+}
+#MProjects .body{
   padding-top: 0px;
   margin-bottom:200px;
   padding-left: 40px;
   width: 60%;
  }
-.Projects h4 span{
+#MProjects h4 span{
   font-size: small;
   color:lightslategray
   
  }
-
- /*Projects*/
  
- .Projects .em{
+ #Projects .em{
   background-color:lightgray;
   font-size: x-large;
  }
 
-
+/*Call to action*/
 .contact{
-  display: flex;
   padding-left: 200px;
   margin-top: 100px;
   flex-direction: row;
