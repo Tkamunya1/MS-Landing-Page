@@ -173,7 +173,7 @@ width: 90px;
   margin-top: 20px;
 }
 #MProjects>.Pbody>.Pleftside, .Prightside{
-
+display: inline-block;
 }
 #MProjects .body{
   padding-top: 0px;
@@ -185,6 +185,8 @@ width: 90px;
   
   
  }
+ #Mprojects>.Pleftside,.Prightside{
+display: inline-flex; }
  
  #Projects .em{
   background-color:lightgray;
